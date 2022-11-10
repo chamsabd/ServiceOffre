@@ -21,6 +21,8 @@ public class ServiceOffreEmploiApplication implements CommandLineRunner {
 		offreRepository.save(new Offre("Web Design", "informatique","AXA", 2, "France")); 
 		offreRepository.save(new Offre("Developpeur", "informatique","Talys", 3, "Tunisie")); 
 		offreRepository.save(new Offre("Architecte", "informatique","SIS", 2, "Allemagne")); 
+		offreRepository.save(new Offre("Developpeur1", "informatique","Talys", 3, "Tunisie")); 
+		offreRepository.save(new Offre("Architecte2", "informatique","SIS", 2, "Allemagne")); 
 		
 	}
 
